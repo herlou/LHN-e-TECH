@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Hind Mysuru", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+/* Mes cartes présentant les services */
+.card{
+    cursor: pointer;
+    transition: 0.3s ease; 
+}
+
+.card:hover{
+    opacity: 0.8;
+    transform: scale(1.05);
+    box-shadow: 0 2px 5px black;
+}
+
+
+/* Tous les paragraphes */
+p{
+    letter-spacing: 1.5px;
+}
+
+/* Les phrases descriptives */
+.description{
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+/* titre affilié au logo */
+.logo{
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+    text-shadow: 0px 4px 3px black;;
+}
+/* Section héro */
+.hero{
+    background: linear-gradient(rgba(0,0,0, .6), rgba(0,0,0, .6)), url(./IMAGES/IMG5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* style de liste dans la section à propos */
+.list{
+    list-style: none;
+    padding: 10px;
+    box-shadow:-3px 0px 0 #ffc107;
+    border-radius: 5px;
+    margin: 2rem;
+}
+
+/* section contactez nous */
+.hero2{
+    background: linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .4)), url(IMAGES/abidjan3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* bouton telephone */
+.tel{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Bouton d'accès au formulaire */
+.formulaire{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Liens et ancres dans le pied de page */
+.ancre{
+    text-decoration: none;
+    font-size: 1rem ;
+    text-decoration: underline;
+}
+
+/* Affichage des titres */
+.titre{
+    font-family: "Abril Fatface", serif;
+  font-weight: 200;
+  font-style: normal;
+}

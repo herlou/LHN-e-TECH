@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LHN e-TECH</title>
+    <link rel="shortcut icon" href="IMAGES/LHN LOGO.png" type="image/x-icon" />
+
+    <!--Les police-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Hind+Mysuru:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Playwrite+PL+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Police Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Playwrite+PL+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Police Satisfy -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Hind+Mysuru:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Playwrite+PL+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <!--Pour les icones-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- AOS Css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+   
+     
+    <!-- Fancybox -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+  />
+
+   <!-- Bootstrap -->
+   <link
+   href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+   rel="stylesheet"
+   integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+   crossorigin="anonymous"
+ />
+ 
+    <!-- Style perso -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar bg-light fixed-top navbar-expand-lg mx-0 px-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="IMAGES/LHN LOGO.png" width="40" class="img-fluid" alt="logo" />
+        </a>
+        <a href="#" class=" logo">e-TECH</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active fs-5" aria-current="page" href="#"
+                >Accueil</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#apropos">A propos de nous</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle fs-5"
+                href="#service"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Nos services
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#webdev">Dévéloppement Web</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#marketing"
+                    >Marketing Digital</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#startupsolution"
+                    >StartUp Solution</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#apkdev"
+                    >Dévéloppement d'Applications</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-outline-warning py-2"
+            ><i class="fa fa-phone"></i> Contactez-nous</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!--Section hero-->
+    <section class="py-3 hero" data-aos="zoom-out">
+      <div class="container">
+        <div class="row align-items-center">
+          <!--Texte-->
+          <div class="col-md-6 py-5" data-aos="fade-right">
+            <div class="sociaux d-flex pt-5">
+              <a
+                class="btn btn-outline-light mx-2"
+                target="_blank"
+                rel="no-referrer"
+                href="whatsapp"
+                ><i class="fab fa-whatsapp f-2xl fs-2 p-1"></i
+              ></a>
+
+              <a
+                class="btn btn-outline-light mx-2"
+                target="_blank"
+                rel="no-referrer"
+                href="facebook"
+                ><i class="fab fa-facebook f-2xl fs-2 p-1"></i
+              ></a>
+
+              <a
+                class="btn btn-outline-light mx-2"
+                target="_blank"
+                rel="no-referrer"
+                href="x-twitter"
+                ><i class="fab fa-x-twitter f-2xl fs-2 p-1"></i
+              ></a>
+
+              <a
+                class="btn btn-outline-light mx-2"
+                target="_blank"
+                rel="no-referrer"
+                href="youtube"
+                ><i class="fab fa-youtube f-2xl fs-2 p-1"></i
+              ></a>
+
+              <a
+                class="btn btn-outline-light mx-2"
+                target="_blank"
+                rel="no-referrer"
+                href="linkedin"
+                ><i class="fab fa-linkedin f-2xl fs-2 p-1"></i
+              ></a>
+            </div>
+            <h1
+              class="text-white py-3"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
+              Entreprise de solutions informatiques et de services aux
+              entreprises
+            </h1>
+            <p class="mt-2 text-white" data-aos="fade-top">
+              Libérez le potentiel digital de votre entreprise avec nos services
+              sur mesure
+            </p>
+
+            <br />
+
+            <a class="btn btn-outline-light" href="#service">Nos services</a>
+            <a class="btn btn-outline-light" href="#contact">Contactez-nous</a>
+          </div>
+
+          <!--Image-->
+
+          <div
+            class="col-md-6"
+            data-aos="zoom-in-left"
+            data-aos-duration="2000"
+          >
+            <a href="IMAGES/IMG9.jpg" data-fancybox="gallery">
+              <img src="IMAGES/IMG9.jpg" class="img-fluid rounded-4" alt="hero" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!--A propos de nous-->
+
+     <section class="mb-5 bg-light" id="apropos">
+      <div class="container py-5">
+        <h5 class="text-warning fw-bold titre" data-aos="fade-down">
+          Qui sommes nous ?
+        </h5>
+        <div class="row align-items-center">
+          <div
+            class="col-md-6"
+            data-aos="fade-right"
+          >
+            <h3 class="mb-2 description py-3">
+              Notre engagement est de vous offrir un service informatique
+              impeccable pour votre entreprise.
+            </h3>
+            <p class="text-muted my-3 text-center fw-bold">
+              LHN e-TECH offre divers services en matière
+              de numérique : développement de logiciels, marketing
+              digital, solutions Start-Up et bien d'autres. 
+              Notre équipe d'experts garantit des solutions sur mesure 
+              pour répondre aux besoins technologiques de votre entreprise.
+            </p>
+
+            <a class="btn btn-outline-primary btn1 my-4" href="#service">Apprendre davantage <i class="fa fa-arrow-down"></i></a>
+          </div>
+          <div
+            class="col-md-6"
+            data-aos="fade-up"
+          >
+          <img
+            src="IMAGES/home-font.png"
+            class="img-fluid"
+            alt=""
+          />  
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Nos services -->
+    <section class="mb-5" id="service">
+      <div class="container">
+        <h3
+          class="text-warning text-center fw-bold mb-3 titre"
+          data-aos="fade-left"
+          data-aos-duration="1300"
+        >
+          Ce que nous offrons
+        </h3>
+        <h2
+          class="text-dark text-center fw-bold service mb-5 titre"
+          data-aos="fade-right"
+          data-aos-duration="1300"
+        >
+          Decouvrez nos Services
+        </h2>
+        <div class="row" data-aos="fade-down" data-aos-duration="1500">
+          <!-- 1ere carte -->
+          <div class="col-md-6 mb-4" id="webdev" data-aos="flip-left">
+            <div class="card p-none">
+              <a href="IMAGES/IMG4.webp" data-fancybox="gallery"><img
+                src="IMAGES/IMG4.webp"
+                class="card-img-top object-fit-cover"
+                width="100%"
+                height="180px"
+                alt="..."
+              /></a>
+              <div class="card-body">
+                <h5 class="card-title text-warning fw-bold">Dévéloppement Web</h5>
+                <p class="card-text text-muted">
+                  Boostez votre présence en ligne avec notre expertise en
+                  développement web sur mesure : fluide, évolutive, innovant,
+                  performant et adapté à vos besoins.
+                </p>
+                <a href="#" class="btn btn-outline-primary">
+                  <i class="fa fa-arrow-right text-white"></i> En savoir plus</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- 2e carte -->
+
+          <div class="col-md-6 mb-4" id="marketing" data-aos="flip-left">
+            <div class="card p-none">
+              <a href="IMAGES/IM8.jpg" data-fancybox="gallery"><img
+                src="IMAGES/IM8.jpg"
+                class="card-img-top object-fit-cover"
+                width="100%"
+                height="180px"
+                alt="..."
+              /></a>
+              
+              <div class="card-body">
+                <h5 class="card-title text-warning fw-bold">
+                  Marketing Digital
+                </h5>
+                <p class="card-text text-muted">
+                  Transformez vos prospects en clients fidèles avec notre
+                  expertise en activité numérique et marketing digital : stratégies innovantes,
+                  ciblées et résultats mesurables.
+                </p>
+                <a href="#" class="btn btn-outline-primary">
+                  <i class="fa fa-arrow-right text-white"></i> En savoir plus</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- 3e carte -->
+
+          <div class="col-md-6 mb-4" id="startupsolution" data-aos="flip-left">
+            <div class="card p-none">
+              <a href="IMAGES/IM2.jpg" data-fancybox="gallery"><img
+                src="IMAGES/IM2.jpg"
+                class="card-img-top object-fit-cover"
+                width="100%"
+                height="180px"
+                alt="..."
+              /></a>
+              
+              <div class="card-body">
+                <h5 class="card-title text-warning fw-bold">
+                  Start-Up Solution
+                </h5>
+                <p class="card-text text-muted">
+                  Transformez vos idées en réalité avec notre startup de
+                  solutions innovantes. Nos services sont personnalisés et
+                  optimisent votre productivité et votre croissance.
+                </p>
+                <a href="#" class="btn btn-outline-primary">
+                  <i class="fa fa-arrow-right text-white"></i> En savoir plus</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- 4e carte -->
+
+          <div class="col-md-6 mb-4" id="apkdev" data-aos="flip-left">
+            <div class="card p-none">
+              <a href="IMAGES/IM6.jpg" data-fancybox="gallery"><img
+                src="IMAGES/IM6.jpg"
+                class="card-img-top object-fit-cover"
+                width="100%"
+                height="180px"
+                alt="..."
+              /></a>
+              
+              <div class="card-body">
+                <h5 class="card-title text-warning fw-bold">
+                  Dévéloppement d'Application
+                </h5>
+                <p class="card-text text-muted">
+                  Inspirez l'innovation avec nos solutions de développement
+                  d'applications sur mesure : intuitif, performant, et
+                  parfaitement adapté à vos besoins spécifiques.
+                </p>
+                <a href="#" class="btn btn-outline-primary">
+                  <i class="fa fa-arrow-right text-white"></i> En savoir plus</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- A propos de nous : pourquoi nous choisir -->
+    <section class="my-2 p-5" id="apropos">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6" data-aos="fade-up">
+            <a href="IMAGES/IMG3.jpg" data-fancybox="gallery">
+              <img src="IMAGES/IMG3.jpg" class="img-fluid rounded-4 object-fit-cover"  style="height: 100vh;" alt="" />
+            </a> 
+          </div>
+          <div class="col-md-6" data-aos="fade-left">
+            <h5
+              class="text-warning fw-bold my-3 titre"
+              data-aos="zoom-in"
+            >
+              En quoi sommes-nous votre meilleur choix ?
+            </h5>
+            <h3 class="my-4 description">
+              Renforcez la protection de votre marque et fluidifiez vos
+              processus grâce à nos applications et logiciels personnalisés,
+              dynamiques et évolutifs.
+            </h3>
+            <p class="text-muted fw-bold">
+              Optez pour nos services informatiques pour bénéficier de solutions
+              sur mesure, sécurisées et innovantes, assurées par une équipe
+              d'experts dédiée à optimiser vos performances et à protéger vos
+              données. Boostez votre croissance avec notre expertise et notre
+              support technique constant.
+            </p>
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <ul>
+                  <li class="my-1 list mx-0 py-0">Dévéloppement d'application Web</li>
+                  <li class="my-1 list mx-0 py-0">Gestion de base de données</li>
+                  <li class="my-1 list mx-0 py-0">Sécurité</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <li class="my-1 list mx-0 py-0">Optimisation des performances</li>
+                <li class="my-1 list mx-0 py-0">Déploiement et Maintenance</li>
+                <li class="my-1 list mx-0 py-0">Consultation et Conseils techniques</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- A propos de nous: pourquoi nous faire confiance -->
+    <section class="bg-light my-5" id="apropos">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-md-6" data-aos="zoom-out-right">
+            <h5 class="text-warning titre mb-4">
+              Ce qui garantit notre crédibilité ?
+            </h5>
+            <h3 class="description">
+              Optez pour nos services informatiques et découvrez des solutions
+              sur mesure, sécurisées et innovantes, adaptées à vos besoins
+              uniques.
+            </h3>
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <ul>
+                  <li class="my-1 list mx-0 py-0">Expertise technique éprouvée</li>
+                  <li class="my-1 list mx-0 py-0">Solution personnalisée</li>
+                  <li class="my-1 list mx-0 py-0">Sécurité renforcé</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <li class="my-1 list mx-0 py-0">Transparence et fiabilité</li>
+                <li class="my-1 list mx-0 py-0">Innovation continue</li>
+                <li class="my-1 list mx-0 py-0">Support technique dédié</li>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="zoom-in-left">
+            <a href="IMAGES/IMG8.webp" data-fancybox="gallery">
+              <img src="IMAGES/IMG8.webp" class="img-fluid rounded-4" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section nous contacter (hero2)-->
+    <section class="hero2" id="contact">
+      <div class="container text-center py-3 my-2">
+        <h5 class="text-warning fw-bold titre" data-aos="fade-down">
+          Intéressé par une collaboration avec nous ?
+        </h5>
+        <h2 class="text-white my-5 description" data-aos="fade-up-left">
+          Boostez votre entreprise avec notre transformation <br />numérique sur
+          mesure.
+        </h2>
+        <p class="text-light fw-bold my-5 fs-5" data-aos="fade-up-right">
+          Transformez vos opérations grâce à nos services IT fiables. <br />
+          Réduisez vos coûts, améliorez votre efficacité et propulsez votre
+          entreprise <br />
+          vers de nouveaux sommets avec notre support informatique de pointe.
+        </p>
+
+        <button
+          class="btn btn-outline-warning p-3"
+          data-aos="flip-up"
+          data-aos-duration="2000"
+        >
+          <a href="tel:+2250707070707" class="tel">
+            <i class="fa fa-phone text-light"></i> Nous appeler</a
+          >
+        </button>
+        <button
+          class="btn btn-primary p-3"
+          data-aos="flip-down"
+          data-aos-duration="1200"
+        >
+          <a href="contact.html" class="tel"
+            ><i class="fa-duotone fa-solid fa-address-card"></i> Nous
+            contacter</a
+          >
+        </button>
+      </div>
+    </section>
+
+    <!-- Section soumettre projet via formulaire -->
+    <section class="py-2" data-aos="fade-down">
+      <div class="container bg-primary rounded-3 py-5">
+        <div class="row align-items-center">
+          <div class="col-md-7 px-5" data-aos="zoom-out">
+            <h2 class="text-white titre" data-aos="fade-up-right">
+              Voulez-vous nous soumettre votre projet ? <br />
+              C'est par ici <i class="fa fa-arrow-down text-warning"></i>
+            </h2>
+
+            <p class="text-light my-3" data-aos="fade-down-left">
+              Veuillez renseigner le formlaire ci-dessous pour soumettre votre
+              demande et nous vous recontacterons pour des pourparlers.
+            </p>
+            <br />
+
+            <button
+              class="btn btn-warning btn-sm p-2  fs-5"
+              data-aos="flip-up-right"
+            >
+              <a href="contact.html" class="formulaire">
+                <i class="fa fa-envelopes-bulk text-white"></i>
+                Acceder au formulaire</a
+              >
+            </button>
+          </div>
+          <div class="col-md-5" data-aos="zoom-in-left">
+            <img class="img-fluid" src="./IMAGES/IM13.png" alt="description" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---footer-->
+    <footer class="mt-5 py-5 bg-light" id="apropos">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- liens reseaux sociaux -->
+          <div class="col-md-4">
+            <a href="#"
+              ><img
+                class="mb-4"
+                src="IMAGES/LHN LOGO.png"
+                width="50"
+                alt="LOGO"
+                data-aos="flip-down"
+            /></a>
+            <p class="text-muted my-3">
+              LHN, votre allié technologique, fournit des solutions <br />
+              informatiques sur mesure pour optimiser votre <br />
+              entreprise. Innovants et fiables, nous transformons vos <br />
+              défis en opportunités de succès durable.
+            </p>
+            <div class="d-flex">
+              <h6 class="mx-2 text-primary">Suivez-nous sur :</h6>
+              <a href="facebook"
+                ><i class="fab fa-facebook text-secondary mx-2"></i
+              ></a>
+              <a href="twitter"
+                ><i class="fab fa-x-twitter text-secondary mx-2"></i
+              ></a>
+              <a href="instagram"
+                ><i class="fab fa-instagram text-secondary mx-2"></i
+              ></a>
+              <a href="youtube"
+                ><i class="fab fa-youtube text-secondary mx-2"></i
+              ></a>
+              <a href="linkedin"
+                ><i class="fab fa-linkedin text-secondary mx-2"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- tous les supports -->
+          <div class="col-md-3">
+            <h3 class="fw-bold">Liens utiles</h3>
+            <a class="text-secondary ancre my-5" href="#apropos">A propos</a
+            ><br />
+            <a class="text-secondary ancre my-5" href="#service">Services</a
+            ><br />
+            <a class="text-secondary ancre my-5" href="contact.html"
+              >Contacts</a
+            >
+            <br />
+            <a class="text-secondary ancre" href="#about"
+              >Decouvrir LHN e-TECH</a
+            ><br />
+            <a class="text-secondary ancre" href="#pricing"
+              >Devenir sous-traitant</a
+            ><br />
+            <a class="text-secondary ancre" href="#career">FAQ’s</a><br />
+             <iframe class="py-3"
+              data-aos="zoom-out"
+              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3972.6184015334393!2d-4.020291977710916!3d5.322067894656399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sfranchet%20d&#39;esperey!5e0!3m2!1sfr!2sci!4v1734033458884!5m2!1sfr!2sci"
+              width="100%"
+              height="100"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <!-- contacts -->
+          <div class="col-md-5">
+            <h3 class="fw-bold">Contactez-nous</h3>
+            <br />
+            <p class="text-secondary">
+              5.322004, -4.018329 159-121 Av. Franchet d'Esperey, Abidjan
+            </p>
+            <div class="row d-flex align-items-center my-3">
+              <div class="col-md-6">
+                <p class="text-secondary my-2 mx-2">
+                  Email :
+                </p>
+                <a class="btn btn-outline-success" href="mailto:"
+                    >support@lhnetech.com</a
+                  >
+              </div>
+              <div class="col-md-6">
+                <p class="text-secondary my-2">
+                  Tel :
+                </p>
+                <a class="btn btn-outline-danger" href="tel:+225 07 0707 0001"
+                    ><i class="fa fa-phone"></i>(+225) 07 0707 0001</a
+                >
+              </div>
+            </div>
+              <button class="btn btn-outline-secondary px-4">
+                <a href="appstore"> <i class="fa-brands fa-app-store"></i></a>
+                AppStore
+              </button>
+              <button class="btn btn-outline-secondary px-4">
+                <a href="playstore"><i class="fa-brands fa-google-play"></i></a>
+                PlayStore
+              </button>
+            </p>
+          </div>
+
+         <!-- Politiques de confidentialités, cookies et conditions générales -->
+          <div class="py-3 mt-2 text-center bg-warning rounded-4">
+              <p class="m-0 p-0">© 2024 LHN e-TECH, Inc. Touts droits reservés</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- Fancybox -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <!-- AOS Js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: false,
+        offset: 100,
+      });
+
+      Fancybox.bind("[data-fancybox]");
+    </script>
+    <script src="./script.js"></script>
+  </body>
+</html>
